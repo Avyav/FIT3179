@@ -1,4 +1,4 @@
-report_year,agency_code,agency_jurisdiction,population,violent_crimes,homicides,rapes,assaults,robberies,months_reported,crimes_percapita,homicides_percapita,rapes_percapita,assaults_percapita,robberies_percapita,agency_jurisdiction,,lat,lng
+report_year,agency_code,agency_jurisdiction,population,violent_crimes,homicides,rapes,assaults,robberies,months_reported,crimes_percapita,homicides_percapita,rapes_percapita,assaults_percapita,robberies_percapita,agency_jurisdiction,State,lat,lng
 2000,NM00101,"Albuquerque, NM",448607,5136,33,239,3317,1547,12,1144.88,7.36,53.28,739.4,344.85,Albuquerque, NM,35.1053,-106.6464
 2000,TX22001,"Arlington, TX",332969,2157,14,96,1452,595,12,647.81,4.2,28.83,436.08,178.7,Arlington, TX,32.6998,-97.125
 2000,GAAPD00,"Atlanta, GA",416474,11583,134,278,6849,4322,12,2781.21,32.17,66.75,1644.52,1037.76,Atlanta, GA,33.7627,-84.4224
