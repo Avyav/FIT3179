@@ -1,0 +1,51 @@
+agency_jurisdiction,Year,Amount
+Chicago,1975,37160
+Chicago,1985,60011
+Chicago,1995,73011
+Chicago,2005,36050
+Chicago,2015,24663
+Houston,1975,8924
+Houston,1985,16461
+Houston,1995,22260
+Houston,2005,23987
+Houston,2015,21994
+Las Vegas,1975,2594
+Las Vegas,1985,3624
+Las Vegas,1995,9523
+Las Vegas,2005,9530
+Las Vegas,2015,14383
+Los Angeles,1975,30405
+Los Angeles,1985,52832
+Los Angeles,1995,70518
+Los Angeles,2005,31767
+Los Angeles,2015,25156
+New York City,1975,132182
+New York City,1985,135152
+New York City,1995,114023
+New York City,2005,54623
+New York City,2015,50088
+Philadelphia,1975,16332
+Philadelphia,1985,16209
+Philadelphia,1995,21860
+Philadelphia,2005,21609
+Philadelphia,2015,16132
+Phoenix,1975,4649
+Phoenix,1985,7521
+Phoenix,1995,11590
+Phoenix,2005,10691
+Phoenix,2015,9261
+San Antonio,1975,4222
+San Antonio,1985,5393
+San Antonio,1995,5178
+San Antonio,2005,8007
+San Antonio,2015,8594
+San Diego,1975,3859
+San Diego,1985,6250
+San Diego,1995,11077
+San Diego,2005,6603
+San Diego,2015,5582
+Suffolk County,1975,964
+Suffolk County,1985,2630
+Suffolk County,1995,2269
+Suffolk County,2005,2446
+Suffolk County,2015,1675
