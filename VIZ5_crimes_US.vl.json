@@ -1,0 +1,27 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/Avyav/FIT3179/main/VIZ5.csv"
+  },
+  "title": "How number of violent crimes has changed over time",
+  "mark": {"type": "line", "point": true},
+  "encoding": {
+    "tooltip": [
+      {"field": "agency_jurisdiction", "type": "nominal", "title": "City"},
+      {"field": "Year", "type": "temporal", "title": "Year"},
+      {"field": "Amount", "type": "quantitative", "title": "Violent Crimes"}
+    ],
+    "x": {"field": "Year", "type": "temporal"},
+    "y": {
+      "field": "Amount",
+      "type": "quantitative",
+      "title": "Number of Violent Crimes"
+    },
+    "color": {
+      "field": "agency_jurisdiction",
+      "type": "nominal",
+      "scale": {"scheme": "dark2"}
+    }
+  },
+  "config": {}
+}
