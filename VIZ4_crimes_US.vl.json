@@ -1,0 +1,23 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/Avyav/FIT3179/main/VIZ4.csv"
+  },
+  "title": "US Major cities population over time",
+  "mark": {"type": "line", "point": true},
+  "encoding": {
+    "tooltip": [
+      {"field": "agency_jurisdiction", "type": "nominal", "title": "City"},
+      {"field": "Year", "type": "temporal", "title": "Year"},
+      {"field": "Amount", "type": "quantitative", "title": "Population"}
+    ],
+    "x": {"field": "Year", "type": "temporal"},
+    "y": {"field": "Amount", "type": "quantitative", "title": "Population"},
+    "color": {
+      "field": "agency_jurisdiction",
+      "type": "nominal",
+      "scale": {"scheme": "dark2"}
+    }
+  },
+  "config": {}
+}
