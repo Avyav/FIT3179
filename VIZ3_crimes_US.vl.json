@@ -1,0 +1,27 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/Avyav/FIT3179/main/data%20for%20VIZ3_v2.csv"
+  },
+  "title": "Comparison of Crime in US Cities",
+  "mark": "bar",
+  "encoding": {
+    "tooltip": [
+      {"field": "City", "type": "ordinal", "title": "City"},
+      {"field": "Type", "type": "ordinal", "title": "Crime type"},
+      {"field": "Amount", "type": "quantitative", "title": "Amount in 2015"}
+    ],
+    "x": {"field": "City", "title": "30 highest crime US cities"},
+    "y": {
+      "aggregate": "sum",
+      "field": "Amount",
+      "stack": "normalize",
+      "title": "Type of Crime"
+    },
+    "color": {
+      "field": "Type",
+      "scale": {"range": ["#c9421c", "#e8eb34", "#fdae61", "#875f54"]}
+    }
+  },
+  "config": {}
+}
