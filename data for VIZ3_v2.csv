@@ -1,0 +1,117 @@
+City,Amount,Type
+St. Louis,59.29,homicides per capita
+St. Louis,82.94,rapes per capita
+St. Louis,1110.39,assaults per capita
+St. Louis,564.5,robberies per capita
+Detroit,43.82,homicides per capita
+Detroit,78.73,rapes per capita
+Detroit,1123.55,assaults per capita
+Detroit,513.5,robberies per capita
+Memphis,20.52,homicides per capita
+Memphis,80.55,rapes per capita
+Memphis,1163.18,assaults per capita
+Memphis,475.88,robberies per capita
+Milwaukee,24.15,homicides per capita
+Milwaukee,72.62,rapes per capita
+Milwaukee,874.92,assaults per capita
+Milwaukee,624.42,robberies per capita
+Baltimore,55.37,homicides per capita
+Baltimore,46.2,rapes per capita
+Baltimore,740.12,assaults per capita
+Baltimore,694.24,robberies per capita
+Oakland,20.26,homicides per capita
+Oakland,67.94,rapes per capita
+Oakland,569.99,assaults per capita
+Oakland,784.3,robberies per capita
+Kansas City,23.03,homicides per capita
+Kansas City,77.32,rapes per capita
+Kansas City,957.17,assaults per capita
+Kansas City,359.76,robberies per capita
+Cleveland,16.21,homicides per capita
+Cleveland,127.36,rapes per capita
+Cleveland,425.83,assaults per capita
+Cleveland,769.83,robberies per capita
+Indianapolis,17.14,homicides per capita
+Indianapolis,78.39,rapes per capita
+Indianapolis,752.25,assaults per capita
+Indianapolis,440.21,robberies per capita
+Washington,24.1,homicides per capita
+Washington,73.49,rapes per capita
+Washington,598.61,assaults per capita
+Washington,506.38,robberies per capita
+Atlanta,20.23,homicides per capita
+Atlanta,36.58,rapes per capita
+Atlanta,633.51,assaults per capita
+Atlanta,429.3,robberies per capita
+Buffalo,15.89,homicides per capita
+Buffalo,67.03,rapes per capita
+Buffalo,635.42,assaults per capita
+Buffalo,400.24,robberies per capita
+Nashville,10.94,homicides per capita
+Nashville,77.05,rapes per capita
+Nashville,732.34,assaults per capita
+Nashville,280.69,robberies per capita
+Newark,38.34,homicides per capita
+Newark,37.26,rapes per capita
+Newark,382.64,assaults per capita
+Newark,642.4,robberies per capita
+Minneapolis,11.37,homicides per capita
+Minneapolis,98.43,rapes per capita
+Minneapolis,494.58,assaults per capita
+Minneapolis,458.55,robberies per capita
+Philadelphia,17.86,homicides per capita
+Philadelphia,84.32,rapes per capita
+Philadelphia,495.28,assaults per capita
+Philadelphia,431.49,robberies per capita
+Miami,17.12,homicides per capita
+Miami,18.27,rapes per capita
+Miami,602.1,assaults per capita
+Miami,383.82,robberies per capita
+Wichita,6.93,homicides per capita
+Wichita,89.53,rapes per capita
+Wichita,700.32,assaults per capita
+Wichita,188.03,robberies per capita
+Houston,13.32,homicides per capita
+Houston,43.34,rapes per capita
+Houston,458.29,assaults per capita
+Houston,451.74,robberies per capita
+Albuquerque,7.68,homicides per capita
+Albuquerque,72.18,rapes per capita
+Albuquerque,584.76,assaults per capita
+Albuquerque,301.22,robberies per capita
+New Orleans,41.68,homicides per capita
+New Orleans,103.95,rapes per capita
+New Orleans,423.44,assaults per capita
+New Orleans,380.48,robberies per capita
+Orlando,11.92,homicides per capita
+Orlando,67.8,rapes per capita
+Orlando,666.45,assaults per capita
+Orlando,194.46,robberies per capita
+Cincinnati,22.11,homicides per capita
+Cincinnati,79.07,rapes per capita
+Cincinnati,400.7,assaults per capita
+Cincinnati,423.15,robberies per capita
+Las Vegas,8.13,homicides per capita
+Las Vegas,70.86,rapes per capita
+Las Vegas,521.02,assaults per capita
+Las Vegas,320.72,robberies per capita
+Chicago,17.52,homicides per capita
+Chicago,52.48,rapes per capita
+Chicago,480.23,assaults per capita
+Chicago,353.61,robberies per capita
+Tulsa,13.7,homicides per capita
+Tulsa,90.9,rapes per capita
+Tulsa,586.27,assaults per capita
+Tulsa,212.69,robberies per capita
+Salt Lake City,4.17,homicides per capita
+Salt Lake City,151.57,rapes per capita
+Salt Lake City,455.23,assaults per capita
+Salt Lake City,244.28,robberies per capita
+San Francisco,6.14,homicides per capita
+San Francisco,39.82,rapes per capita
+San Francisco,312.93,assaults per capita
+San Francisco,417.93,robberies per capita
+Oklahoma City,11.58,homicides per capita
+Oklahoma City,76.12,rapes per capita
+Oklahoma City,488.88,assaults per capita
+Oklahoma City,189.02,robberies per capita
