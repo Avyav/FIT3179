@@ -1,0 +1,58 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "width": 100,
+  "height": 100,
+  "repeat": {
+    "row": ["rapes_percapita", "assaults_percapita", "robberies_percapita"],
+    "column": ["robberies_percapita", "assaults_percapita", "rapes_percapita"]
+  },
+  "params": [
+    {
+      "name": "year",
+      "value": 2000,
+      "bind": {
+        "input": "range",
+        "min": 2000,
+        "max": 2015,
+        "step": 1,
+        "name": "year: "
+      }
+    }
+  ],
+  "transform": [{"filter": "datum.report_year == year"}],
+  "spec": {
+    "data": {
+      "url": "https://raw.githubusercontent.com/Avyav/FIT3179/main/2000-2015_crime%20in%20context_final.csv"
+    },
+    "mark": "point",
+    "selection": {
+      "brush": {
+        "type": "interval",
+        "resolve": "union",
+        "on": "[mousedown[event.shiftKey], window:mouseup] > window:mousemove!",
+        "translate": "[mousedown[event.shiftKey], window:mouseup] > window:mousemove!",
+        "zoom": "wheel![event.shiftKey]"
+      },
+      "grid": {
+        "type": "interval",
+        "resolve": "global",
+        "bind": "scales",
+        "translate": "[mousedown[!event.shiftKey], window:mouseup] > window:mousemove!",
+        "zoom": "wheel![!event.shiftKey]"
+      }
+    },
+    "encoding": {
+      "x": {"field": {"repeat": "column"}, "type": "quantitative"},
+      "y": {
+        "field": {"repeat": "row"},
+        "type": "quantitative",
+        "axis": {"minExtent": 30}
+      },
+      "color": {
+        "field": "report_year",
+        "scale": {"range": ["#c9421c", "#e8eb34", "#fdae61", "#875f54"]}
+      }
+    }
+  },
+  "config": {}
+}
