@@ -1,26 +1,28 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "width": 500,
+  "height": 400,
   "data": {
-    "url": "https://raw.githubusercontent.com/Avyav/FIT3179/main/VIZ5.csv"
+    "url": "https://raw.githubusercontent.com/Avyav/FIT3179/main/data%20for%20VIZ3_v2.csv"
   },
-  "title": "How number of violent crimes has changed over time",
-  "mark": {"type": "line", "point": true},
+  "title": "Comparison of Crime in US Cities in 2015",
+  "mark": "bar",
   "encoding": {
     "tooltip": [
-      {"field": "agency_jurisdiction", "type": "nominal", "title": "City"},
-      {"field": "Year", "type": "temporal", "title": "Year"},
-      {"field": "Amount", "type": "quantitative", "title": "Violent Crimes"}
+      {"field": "City", "type": "ordinal", "title": "City"},
+      {"field": "Type", "type": "ordinal", "title": "Crime type"},
+      {"field": "Amount", "type": "quantitative", "title": "Amount in 2015"}
     ],
-    "x": {"field": "Year", "type": "temporal"},
+    "x": {"field": "City", "title": "30 highest crime US cities"},
     "y": {
+      "aggregate": "sum",
       "field": "Amount",
-      "type": "quantitative",
-      "title": "Number of Violent Crimes"
+      "stack": "normalize",
+      "title": "Type of Crime"
     },
     "color": {
-      "field": "agency_jurisdiction",
-      "type": "nominal",
-      "scale": {"scheme": "dark2"}
+      "field": "Type",
+      "scale": {"range": ["#c9421c", "#e8eb34", "#fdae61", "#875f54"]}
     }
   },
   "config": {}

@@ -1,23 +1,45 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "width": 500,
+  "height": 400,
   "data": {
-    "url": "https://raw.githubusercontent.com/Avyav/FIT3179/main/VIZ4.csv"
+    "url": "https://raw.githubusercontent.com/Avyav/FIT3179/main/VIZ5.csv"
   },
-  "title": "US Major cities population over time",
-  "mark": {"type": "line", "point": true},
-  "encoding": {
-    "tooltip": [
-      {"field": "agency_jurisdiction", "type": "nominal", "title": "City"},
-      {"field": "Year", "type": "temporal", "title": "Year"},
-      {"field": "Amount", "type": "quantitative", "title": "Population"}
-    ],
-    "x": {"field": "Year", "type": "temporal"},
-    "y": {"field": "Amount", "type": "quantitative", "title": "Population"},
-    "color": {
-      "field": "agency_jurisdiction",
-      "type": "nominal",
-      "scale": {"scheme": "dark2"}
+  "title": "Violent Crime in 10 most dangerous US cities ",
+  "vconcat": [
+    {
+      "mark": {"type": "line", "point": true},
+      "encoding": {
+        "tooltip": [
+          {"field": "agency_jurisdiction", "type": "nominal", "title": "City"},
+          {"field": "Year", "type": "temporal", "title": "Year"},
+          {"field": "Amount", "type": "quantitative", "title": "Violent Crimes"}
+        ],
+        "x": {"field": "Year", "type": "temporal"},
+        "y": {
+          "field": "Amount",
+          "type": "quantitative",
+          "title": "Number of Violent Crimes"
+        },
+        "color": {
+          "field": "agency_jurisdiction",
+          "type": "nominal",
+          "scale": {"scheme": "dark2"}
+        }
+      }
+    },
+    {
+      "mark": "bar",
+      "encoding": {
+        "x": {"field": "Year", "type": "temporal"},
+        "y": {
+          "aggregate": "sum",
+          "field": "Amount",
+          "type": "quantitative",
+          "title": "Total number of violent crimes "
+        }
+      }
     }
-  },
+  ],
   "config": {}
 }
