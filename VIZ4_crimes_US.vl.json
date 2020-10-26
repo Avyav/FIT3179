@@ -5,10 +5,11 @@
   "data": {
     "url": "https://raw.githubusercontent.com/Avyav/FIT3179/main/VIZ5.csv"
   },
-  "title": "Violent Crime in 10 most dangerous US cities ",
-  "vconcat": [
+  "title": "How Violent Crime has changed in the 10 most dangerous US cities ",
+  "hconcat": [
     {
-      "mark": {"type": "line", "point": true},
+      "mark": {"type": "line", 
+      "strokeWidth":8},
       "encoding": {
         "tooltip": [
           {"field": "agency_jurisdiction", "type": "nominal", "title": "City"},
@@ -37,9 +38,9 @@
           "field": "Amount",
           "type": "quantitative",
           "title": "Total number of violent crimes "
-        }
+        },
+        "color": {"value": "#95497E"}
       }
     }
-  ],
-  "config": {}
+  ]
 }
