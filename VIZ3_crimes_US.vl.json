@@ -6,36 +6,32 @@
     "url": "https://raw.githubusercontent.com/Avyav/FIT3179/main/VIZ4.csv"
   },
   "title": "US Major cities population over time",
-  "vconcat": [
-    {
-      "mark": {"type": "line", "point": true},
+  "selection": {
+        "continent_highlight": {
+        "type": "multi",
+        "fields": ["agency_jurisdiction"],
+        "bind": "legend"}
+              },
+    "opacity": {
+          "condition": {"selection": "continent_highlight", "value": 0.6},
+          "value": 0.2},
+      "mark": {
+        "type": "line", 
+        "point": true,
+        "strokeWidth": 10},
       "encoding": {
         "tooltip": [
           {"field": "agency_jurisdiction", "type": "nominal", "title": "City"},
           {"field": "Year", "type": "temporal", "title": "Year"},
           {"field": "Amount", "type": "quantitative", "title": "Population"}
         ],
-        "x": {"field": "Year", "type": "temporal"},
+        "x": {"field": "Year", 
+        "type": "temporal"},
         "y": {"field": "Amount", "type": "quantitative", "title": "Population"},
         "color": {
           "field": "agency_jurisdiction",
           "type": "nominal",
-          "scale": {"scheme": "dark2"}
-        }
-      }
-    },
-    {
-      "mark": "bar",
-      "encoding": {
-        "x": {"field": "Year", "type": "temporal"},
-        "y": {
-          "aggregate": "sum",
-          "field": "Amount",
-          "type": "quantitative",
-          "title": "Total number of violent crimes "
+          "scale": {"scheme": "turbo"}
         }
       }
     }
-  ],
-  "config": {}
-}
