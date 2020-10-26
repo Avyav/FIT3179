@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
   "width": 500,
-  "height": 400,
+  "height": 300,
   "title": "Crimes in USA",
   "projection": {"type": "albersUsa"},
   "layer": [
@@ -16,7 +16,8 @@
       "data": {
         "url": "https://raw.githubusercontent.com/Avyav/FIT3179/main/REAL_crime%20in%20context_2015_only.csv"
       },
-      "mark": {"type": "square", "tooltip": {"content": "data"}},
+      "mark": {"type": "square", 
+      "tooltip": {"content": "data"}},
       "encoding": {
         "longitude": {"field": "lng", "type": "quantitative"},
         "latitude": {"field": "lat", "type": "quantitative"},
@@ -29,11 +30,16 @@
           },
           {"field": "population", "type": "quantitative", "title": "Population"}
         ],
-        "size": {"field": "Crimes Per Capita", "type": "quantitative"},
+        "size": {
+          "field": "Crimes Per Capita", 
+          "type": "quantitative",
+          "scale": {"domain": [100, 1000]}},
         "color": {
           "field": "Crimes Per Capita",
           "type": "quantitative",
-          "scale": {"scheme": "goldred"}
+          "scale": {
+            "scheme": "goldred",
+            "domain": [100, 1000]}
         }
       }
     }
