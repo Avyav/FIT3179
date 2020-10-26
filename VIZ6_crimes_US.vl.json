@@ -26,22 +26,6 @@
       "url": "https://raw.githubusercontent.com/Avyav/FIT3179/main/2000-2015_crime%20in%20context_final.csv"
     },
     "mark": "point",
-    "selection": {
-      "brush": {
-        "type": "interval",
-        "resolve": "union",
-        "on": "[mousedown[event.shiftKey], window:mouseup] > window:mousemove!",
-        "translate": "[mousedown[event.shiftKey], window:mouseup] > window:mousemove!",
-        "zoom": "wheel![event.shiftKey]"
-      },
-      "grid": {
-        "type": "interval",
-        "resolve": "global",
-        "bind": "scales",
-        "translate": "[mousedown[!event.shiftKey], window:mouseup] > window:mousemove!",
-        "zoom": "wheel![!event.shiftKey]"
-      }
-    },
     "encoding": {
       "x": {"field": {"repeat": "column"}, "type": "quantitative"},
       "y": {
