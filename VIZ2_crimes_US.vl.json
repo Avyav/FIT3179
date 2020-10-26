@@ -1,8 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-  "width": 500,
-  "height": 300,
-  "title": "US Crime Statistics",
+  "width": 800,
+  "height": 400,
+  "title": "Does a higher population mean more assualts per capita?",
   "data": {
     "url": "https://raw.githubusercontent.com/Avyav/FIT3179/main/2000-2015_crime%20in%20context_final.csv"
   },
@@ -24,8 +24,8 @@
     {"filter": "datum.assaults_percapita > 0"},
     {"filter": "datum.report_year == year"}
   ],
-  "mark": "circle",
-  "encoding": {
+  "mark": "square",
+   "encoding": {
     "tooltip": [
       {"field": "agency_jurisdiction", "type": "ordinal", "title": "City"},
       {
@@ -42,23 +42,30 @@
       {"field": "report_year", "type": "quantitative", "title": "Year"}
     ],
     "x": {
-      "field": "homicides_percapita",
-      "type": "quantitative",
-      "title": "Homicides per capita",
-      "axis": {"tickCount": 3},
-      "scale": {"type": "log", "domain": [0.1, 100]}
-    },
-    "y": {
       "field": "assaults_percapita",
       "type": "quantitative",
-      "title": "Assaults per capita"
+      "axis": {"tickCount": 17},
+      "scale": {"domain": [1, 1700]}
     },
-    "size": {"field": "population", "type": "quantitative"},
+    "y": {
+      "field": "population",
+      "type": "quantitative",
+      "axis": {"tickCount": 2},
+      "scale": {
+        "type": "log",
+        "domain": [180000,8500000]
+        }
+    },
+    "size": {"field": "population", 
+    "type": "quantitative",
+    "scale":{"domain": [10000, 1600000]}},
     "color": {
       "field": "assaults_percapita",
       "type": "quantitative",
-      "scale": {"scheme": "goldred"}
-    }
-  },
-  "config": {}
-}
+      "scale": {
+        "scheme": "goldred",
+        "domain": [100,1300]
+        }
+      }
+   }
+  }
