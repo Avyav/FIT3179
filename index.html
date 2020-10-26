@@ -25,8 +25,8 @@
        background-color: lightgray;
      }
      .page{
-       width: 850px;    
-       background-color: white;   
+       width: 1000px;    
+       background-color: red;   
        margin: auto;
        padding: 50px;
        padding-top: 35px;
@@ -123,8 +123,7 @@
 <script type="text/javascript">
   var specVis1 = "./VIZ1_crimes_US.vl.json";
   var specVis2= "./VIZ2_crimes_US.vl.json";
-  var specVis3= "./VIZ3_crimes_US.vl.json";
-  var specVis4= "./VIZ4_crimes_US.vl.json";
+  var specVis3= "./VIZ4_crimes_US.vl.json";
 
   vegaEmbed('#vis1', specVis1, {"actions": false}).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
@@ -135,10 +134,6 @@
   }).catch(console.error);
 
   vegaEmbed('#vis3', specVis3, {"actions": false}).then(function(result) {
-    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-  }).catch(console.error);
-
-  vegaEmbed('#vis4', specVis4, {"actions": false}).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
 </script>
