@@ -24,7 +24,8 @@
     {"filter": "datum.assaults_percapita > 0"},
     {"filter": "datum.report_year == year"}
   ],
-  "mark": "square",
+    "layer":[{
+  "mark": "circle",
    "encoding": {
     "tooltip": [
       {"field": "agency_jurisdiction", "type": "ordinal", "title": "City"},
@@ -45,6 +46,55 @@
       "field": "assaults_percapita",
       "type": "quantitative",
       "axis": {"tickCount": 17},
+      "scale": {"domain": [1, 1700]},
+      "title": "Assaults Per Capita"},
+    "y": {
+      "field": "population",
+      "type": "quantitative",
+      "axis": {"tickCount": 2},
+      "scale": {
+        "type": "log",
+        "domain": [180000,8500000]
+        },
+        "title": "Population"
+    },
+    "size": {"field": "population", 
+    "type": "quantitative",
+    "title": "Population",
+    "scale":{"domain": [10000, 1600000]}},
+    "color": {
+      "field": "assaults_percapita",
+      "type": "quantitative",
+      "scale": {
+        "scheme": "goldred",
+        "domain": [100,1300]
+        },
+        "title":"Assaults Per Capita"
+      }
+   }
+   },
+   {
+      "mark": {
+      "type": "text",
+      "align": "right",
+      "baseline": "middle",
+      "dx": -12,
+      "fontSize": 11.5,
+      "fontStyle": "italic"
+      },
+      "encoding": {
+      "text": {"field": "agency_jurisdiction", "type": "nominal"},
+      "color": {"value": "black"},
+      "opacity": {
+      "condition": {
+ "test": "datum['agency_jurisdiction'] == 'Atlanta'|| datum['agency_jurisdiction'] == 'New York City' || datum['agency_jurisdiction'] == 'Detroit'|| datum['agency_jurisdiction'] == 'Orlando' || datum['agency_jurisdiction'] == 'St. Louis'|| datum['agency_jurisdiction'] == 'Los Angeles'",
+        "value": 1
+        },
+        "value": 0},
+        "x": {
+      "field": "assaults_percapita",
+      "type": "quantitative",
+      "axis": {"tickCount": 17},
       "scale": {"domain": [1, 1700]}
     },
     "y": {
@@ -55,17 +105,7 @@
         "type": "log",
         "domain": [180000,8500000]
         }
-    },
-    "size": {"field": "population", 
-    "type": "quantitative",
-    "scale":{"domain": [10000, 1600000]}},
-    "color": {
-      "field": "assaults_percapita",
-      "type": "quantitative",
-      "scale": {
-        "scheme": "goldred",
-        "domain": [100,1300]
-        }
-      }
-   }
+ }
+ }}
+   ]
   }
