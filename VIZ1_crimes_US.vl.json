@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-  "width": 500,
+  "width": 600,
   "height": 400,
   "title": "Crimes in USA in 2015",
   "projection": {"type": "albersUsa"},
