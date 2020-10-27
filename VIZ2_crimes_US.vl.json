@@ -25,7 +25,10 @@
     {"filter": "datum.report_year == year"}
   ],
     "layer":[{
-  "mark": "circle",
+  "mark": {
+    "type":"circle",
+    "fill": "purple",
+    "size": 100},
    "encoding": {
     "tooltip": [
       {"field": "agency_jurisdiction", "type": "ordinal", "title": "City"},
@@ -57,20 +60,7 @@
         "domain": [180000,8500000]
         },
         "title": "Population"
-    },
-    "size": {"field": "population", 
-    "type": "quantitative",
-    "title": "Population",
-    "scale":{"domain": [10000, 1600000]}},
-    "color": {
-      "field": "assaults_percapita",
-      "type": "quantitative",
-      "scale": {
-        "scheme": "goldred",
-        "domain": [100,1300]
-        },
-        "title":"Assaults Per Capita"
-      }
+    }
    }
    },
    {
@@ -79,7 +69,7 @@
       "align": "right",
       "baseline": "middle",
       "dx": -12,
-      "fontSize": 11.5,
+      "fontSize": 15,
       "fontStyle": "italic"
       },
       "encoding": {
