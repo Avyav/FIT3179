@@ -34,14 +34,21 @@
         "size": {
           "field": "Crimes Per Capita", 
           "type": "quantitative",
-          "scale": {"domain": [100, 1000]}},
-        "color": {
-          "field": "Crimes Per Capita",
-          "type": "quantitative",
           "scale": {
-            "scheme": "goldred",
-            "domain": [100, 1000]}
-        }
+            "type": "threshold",
+            "domain": [500, 1000],
+            "range": [100, 300, 500]}},
+        "color": {
+            "field": "Crimes Per Capita",
+            "type": "quantitative",
+            "scale": {
+              "type": "threshold",
+            "domain": [500, 1000],
+            "range": [
+                "#FDB32F",
+                "#CB4779",
+                "#9B1E9E"]}},
+          "opacity": {"value": 0.8}
       }
     },
     {
