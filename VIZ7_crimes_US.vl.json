@@ -6,6 +6,11 @@
     "url": "https://raw.githubusercontent.com/Avyav/FIT3179/main/VIZ7_redo.csv"
   },
   "title": "Steam graph of 5 most crime-infested US Cities",
+    "selection": {
+    "industry": {
+      "type": "multi", "fields": ["agency_jurisdiction"], "bind": "legend"
+    }
+  },
   "mark": {
     "type":"area",
     "interpolate": "monotone"},
@@ -30,7 +35,11 @@
       "title": "City",
       "scale": {
         "scheme": "plasma"
-        }}
+        }},
+    "opacity": {
+      "condition": {"selection": "industry", "value": 1},
+      "value": 0.2
+    }
   },
   "config": {}
 }
