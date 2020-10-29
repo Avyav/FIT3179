@@ -3,13 +3,11 @@
   "width": 300,
   "height": 300,
   "data": {
-    "url": "https://raw.githubusercontent.com/Avyav/FIT3179/main/VIZ5.csv"
+    "url": "https://raw.githubusercontent.com/Avyav/FIT3179/main/VIZ5%20(1).csv"
   },
-  "title": "How Violent Crime has changed in the 10 most dangerous US cities ",
-  "hconcat": [
-    {
-      "mark": {"type": "line", 
-      "strokeWidth":8},
+  "title": "Cities with highest nominal numbers of crime 1975-2015",
+      "mark": {
+        "type": "area"},
       "encoding": {
         "tooltip": [
           {"field": "agency_jurisdiction", "type": "nominal", "title": "City"},
@@ -18,29 +16,16 @@
         ],
         "x": {"field": "Year", "type": "temporal"},
         "y": {
-          "field": "Amount",
-          "type": "quantitative",
-          "title": "Number of Violent Crimes"
-        },
-        "color": {
-          "field": "agency_jurisdiction",
-          "type": "nominal",
-          "scale": {"scheme": "dark2"}
-        }
-      }
-    },
-    {
-      "mark": "bar",
-      "encoding": {
-        "x": {"field": "Year", "type": "temporal"},
-        "y": {
           "aggregate": "sum",
           "field": "Amount",
           "type": "quantitative",
           "title": "Total number of violent crimes "
         },
-        "color": {"value": "#95497E"}
+        "color": {
+          "field": "agency_jurisdiction",
+          "type": "nominal",
+          "scale": {"scheme": "plasma"},
+          "title": "City"
       }
     }
-  ]
 }
