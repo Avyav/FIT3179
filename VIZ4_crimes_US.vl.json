@@ -1,13 +1,14 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-  "width": 300,
-  "height": 300,
+  "width": 450,
+  "height": 450,
   "data": {
     "url": "https://raw.githubusercontent.com/Avyav/FIT3179/main/VIZ5%20(1).csv"
   },
   "title": "Cities with highest nominal numbers of crime 1975-2015",
       "mark": {
-        "type": "area"},
+        "type": "area",
+    "interpolate": "monotone"},
       "encoding": {
         "tooltip": [
           {"field": "agency_jurisdiction", "type": "nominal", "title": "City"},
