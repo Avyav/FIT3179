@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-  "width": 400,
-  "height": 300,
+  "width": 550,
+  "height": 400,
   "title": "Does a higher population mean more assualts per capita?",
   "data": {
     "url": "https://raw.githubusercontent.com/Avyav/FIT3179/main/2000-2015_crime%20in%20context_final.csv"
