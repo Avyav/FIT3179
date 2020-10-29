@@ -27,7 +27,7 @@
     "layer":[{
   "mark": {
     "type":"circle",
-    "fill": "purple",
+    "fill": "#A23F64",
     "size": 100},
    "encoding": {
     "tooltip": [
