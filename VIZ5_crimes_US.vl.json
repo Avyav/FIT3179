@@ -22,7 +22,10 @@
     },
     "color": {
       "field": "Type",
-      "scale": {"range": ["#c9421c", "#e8eb34", "#fdae61", "#875f54"]}
+      "scale": {"range": ["#5C17A6", 
+                "#FDB32F",
+                "#ED7953",
+                "#CB4779"]}
     }
   },
   "config": {}
