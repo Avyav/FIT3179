@@ -27,8 +27,8 @@
     "layer":[{
   "mark": {
     "type":"circle",
-    "fill": "#A23F64",
-    "size": 100},
+    "fill":"#9B1E9E",
+    "size": 300},
    "encoding": {
     "tooltip": [
       {"field": "agency_jurisdiction", "type": "ordinal", "title": "City"},
