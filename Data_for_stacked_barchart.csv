@@ -1,0 +1,541 @@
+Year,City,Amount,Type
+1975,Albuquerque,10.48,homicides_percapita
+1975,Albuquerque,63.23,rapes_percapita
+1975,Albuquerque,472.68,assaults_percapita
+1975,Albuquerque,286.13,robberies_percapita
+1985,Albuquerque,11.76,homicides_percapita
+1985,Albuquerque,66.66,rapes_percapita
+1985,Albuquerque,722.03,assaults_percapita
+1985,Albuquerque,349.25,robberies_percapita
+1995,Albuquerque,12.63,homicides_percapita
+1995,Albuquerque,70.52,rapes_percapita
+1995,Albuquerque,658.31,assaults_percapita
+1995,Albuquerque,386.69,robberies_percapita
+2005,Albuquerque,10.8,homicides_percapita
+2005,Albuquerque,58.09,rapes_percapita
+2005,Albuquerque,648.55,assaults_percapita
+2005,Albuquerque,234.39,robberies_percapita
+2015,Albuquerque,7.68,homicides_percapita
+2015,Albuquerque,72.18,rapes_percapita
+2015,Albuquerque,584.76,assaults_percapita
+2015,Albuquerque,301.22,robberies_percapita
+1975,Atlanta,37.71,homicides_percapita
+1975,Atlanta,90.3,rapes_percapita
+1975,Atlanta,717.1,assaults_percapita
+1975,Atlanta,792.32,robberies_percapita
+1985,Atlanta,33.24,homicides_percapita
+1985,Atlanta,156.57,rapes_percapita
+1985,Atlanta,1373.18,assaults_percapita
+1985,Atlanta,1098.54,robberies_percapita
+1995,Atlanta,45.51,homicides_percapita
+1995,Atlanta,109.07,rapes_percapita
+1995,Atlanta,2190.99,assaults_percapita
+1995,Atlanta,1300.9,robberies_percapita
+2005,Atlanta,20.9,homicides_percapita
+2005,Atlanta,51.78,rapes_percapita
+2005,Atlanta,937.85,assaults_percapita
+2005,Atlanta,664.32,robberies_percapita
+2015,Atlanta,20.23,homicides_percapita
+2015,Atlanta,36.58,rapes_percapita
+2015,Atlanta,633.51,assaults_percapita
+2015,Atlanta,429.3,robberies_percapita
+1975,Baltimore,29.97,homicides_percapita
+1975,Baltimore,53.58,rapes_percapita
+1975,Baltimore,730.12,assaults_percapita
+1975,Baltimore,1047.91,robberies_percapita
+1985,Baltimore,27.62,homicides_percapita
+1985,Baltimore,76.77,rapes_percapita
+1985,Baltimore,897.68,assaults_percapita
+1985,Baltimore,1007.79,robberies_percapita
+1995,Baltimore,45.21,homicides_percapita
+1995,Baltimore,95.9,rapes_percapita
+1995,Baltimore,1282.49,assaults_percapita
+1995,Baltimore,1594.05,robberies_percapita
+2005,Baltimore,41.96,homicides_percapita
+2005,Baltimore,25.27,rapes_percapita
+2005,Baltimore,1077.37,assaults_percapita
+2005,Baltimore,609.89,robberies_percapita
+2015,Baltimore,55.37,homicides_percapita
+2015,Baltimore,46.2,rapes_percapita
+2015,Baltimore,740.12,assaults_percapita
+2015,Baltimore,694.24,robberies_percapita
+1975,Buffalo,14.92,homicides_percapita
+1975,Buffalo,45.47,rapes_percapita
+1975,Buffalo,178.79,assaults_percapita
+1975,Buffalo,554.14,robberies_percapita
+1985,Buffalo,9.12,homicides_percapita
+1985,Buffalo,85.62,rapes_percapita
+1985,Buffalo,499.87,assaults_percapita
+1985,Buffalo,408.96,robberies_percapita
+1995,Buffalo,19.85,homicides_percapita
+1995,Buffalo,83.55,rapes_percapita
+1995,Buffalo,1016.02,assaults_percapita
+1995,Buffalo,907.83,robberies_percapita
+2005,Buffalo,19.77,homicides_percapita
+2005,Buffalo,64.96,rapes_percapita
+2005,Buffalo,716.99,assaults_percapita
+2005,Buffalo,588.49,robberies_percapita
+2015,Buffalo,15.89,homicides_percapita
+2015,Buffalo,67.03,rapes_percapita
+2015,Buffalo,635.42,assaults_percapita
+2015,Buffalo,400.24,robberies_percapita
+1975,Chicago,25.97,homicides_percapita
+1975,Chicago,52.6,rapes_percapita
+1975,Chicago,397.27,assaults_percapita
+1975,Chicago,703.84,robberies_percapita
+1985,Chicago,22.21,homicides_percapita
+1985,Chicago,111.94,rapes_percapita
+1985,Chicago,970.24,assaults_percapita
+1985,Chicago,896.75,robberies_percapita
+1995,Chicago,29.97,homicides_percapita
+1995,Chicago,105.32,rapes_percapita
+1995,Chicago,1425.73,assaults_percapita
+1995,Chicago,1094.11,robberies_percapita
+2005,Chicago,15.59,homicides_percapita
+2005,Chicago,58.99,rapes_percapita
+2005,Chicago,624.44,assaults_percapita
+2005,Chicago,555.57,robberies_percapita
+2015,Chicago,17.52,homicides_percapita
+2015,Chicago,52.48,rapes_percapita
+2015,Chicago,480.23,assaults_percapita
+2015,Chicago,353.61,robberies_percapita
+1975,Cincinnati,14.77,homicides_percapita
+1975,Cincinnati,60.23,rapes_percapita
+1975,Cincinnati,347.97,assaults_percapita
+1975,Cincinnati,402.66,robberies_percapita
+1985,Cincinnati,12.16,homicides_percapita
+1985,Cincinnati,97.25,rapes_percapita
+1985,Cincinnati,439.76,assaults_percapita
+1985,Cincinnati,335.5,robberies_percapita
+1995,Cincinnati,13.9,homicides_percapita
+1995,Cincinnati,113.41,rapes_percapita
+1995,Cincinnati,563.45,assaults_percapita
+1995,Cincinnati,599.03,robberies_percapita
+2005,Cincinnati,25.14,homicides_percapita
+2005,Cincinnati,104.68,rapes_percapita
+2005,Cincinnati,321.36,assaults_percapita
+2005,Cincinnati,738.17,robberies_percapita
+2015,Cincinnati,22.11,homicides_percapita
+2015,Cincinnati,79.07,rapes_percapita
+2015,Cincinnati,400.7,assaults_percapita
+2015,Cincinnati,423.15,robberies_percapita
+1975,Cleveland,43.64,homicides_percapita
+1975,Cleveland,74.4,rapes_percapita
+1975,Cleveland,382.46,assaults_percapita
+1975,Cleveland,1075.87,robberies_percapita
+1985,Cleveland,23.99,homicides_percapita
+1985,Cleveland,136.42,rapes_percapita
+1985,Cleveland,403.75,assaults_percapita
+1985,Cleveland,640.69,robberies_percapita
+1995,Cleveland,26.06,homicides_percapita
+1995,Cleveland,139.17,rapes_percapita
+1995,Cleveland,627.78,assaults_percapita
+1995,Cleveland,853.21,robberies_percapita
+2005,Cleveland,23.97,homicides_percapita
+2005,Cleveland,106.34,rapes_percapita
+2005,Cleveland,455.02,assaults_percapita
+2005,Cleveland,815.89,robberies_percapita
+2015,Cleveland,16.21,homicides_percapita
+2015,Cleveland,127.36,rapes_percapita
+2015,Cleveland,425.83,assaults_percapita
+2015,Cleveland,769.83,robberies_percapita
+1975,Detroit,44.19,homicides_percapita
+1975,Detroit,99.41,rapes_percapita
+1975,Detroit,489.58,assaults_percapita
+1975,Detroit,1488.16,robberies_percapita
+1985,Detroit,58.23,homicides_percapita
+1985,Detroit,144.42,rapes_percapita
+1985,Detroit,634.98,assaults_percapita
+1985,Detroit,1537.62,robberies_percapita
+1995,Detroit,47.63,homicides_percapita
+1995,Detroit,110.7,rapes_percapita
+1995,Detroit,1238.95,assaults_percapita
+1995,Detroit,1010.33,robberies_percapita
+2005,Detroit,41.4,homicides_percapita
+2005,Detroit,65.49,rapes_percapita
+2005,Detroit,1496.78,assaults_percapita
+2005,Detroit,757.66,robberies_percapita
+2015,Detroit,43.82,homicides_percapita
+2015,Detroit,78.73,rapes_percapita
+2015,Detroit,1123.55,assaults_percapita
+2015,Detroit,513.5,robberies_percapita
+1975,Houston,25.29,homicides_percapita
+1975,Houston,42.85,rapes_percapita
+1975,Houston,114.18,assaults_percapita
+1975,Houston,467.96,robberies_percapita
+1985,Houston,26.17,homicides_percapita
+1985,Houston,97.97,rapes_percapita
+1985,Houston,269.36,assaults_percapita
+1985,Houston,549.08,robberies_percapita
+1995,Houston,18.22,homicides_percapita
+1995,Houston,48.26,rapes_percapita
+1995,Houston,685.28,assaults_percapita
+1995,Houston,531.73,robberies_percapita
+2005,Houston,16.33,homicides_percapita
+2005,Houston,42.63,rapes_percapita
+2005,Houston,569.62,assaults_percapita
+2005,Houston,543.96,robberies_percapita
+2015,Houston,13.32,homicides_percapita
+2015,Houston,43.34,rapes_percapita
+2015,Houston,458.29,assaults_percapita
+2015,Houston,451.74,robberies_percapita
+1975,Indianapolis,18.87,homicides_percapita
+1975,Indianapolis,69.72,rapes_percapita
+1975,Indianapolis,221.89,assaults_percapita
+1975,Indianapolis,614.21,robberies_percapita
+1985,Indianapolis,12.51,homicides_percapita
+1985,Indianapolis,73.36,rapes_percapita
+1985,Indianapolis,513.51,assaults_percapita
+1985,Indianapolis,380.57,robberies_percapita
+1995,Indianapolis,21.93,homicides_percapita
+1995,Indianapolis,101.88,rapes_percapita
+1995,Indianapolis,844.45,assaults_percapita
+1995,Indianapolis,557.79,robberies_percapita
+2005,Indianapolis,13.49,homicides_percapita
+2005,Indianapolis,65.85,rapes_percapita
+2005,Indianapolis,504.68,assaults_percapita
+2005,Indianapolis,409.09,robberies_percapita
+2015,Indianapolis,17.14,homicides_percapita
+2015,Indianapolis,78.39,rapes_percapita
+2015,Indianapolis,752.25,assaults_percapita
+2015,Indianapolis,440.21,robberies_percapita
+1975,Kansas City,23.31,homicides_percapita
+1975,Kansas City,61.75,rapes_percapita
+1975,Kansas City,526.48,assaults_percapita
+1975,Kansas City,629.94,robberies_percapita
+1985,Kansas City,20.45,homicides_percapita
+1985,Kansas City,95.29,rapes_percapita
+1985,Kansas City,1090.25,assaults_percapita
+1985,Kansas City,594.68,robberies_percapita
+1995,Kansas City,24.02,homicides_percapita
+1995,Kansas City,105.49,rapes_percapita
+1995,Kansas City,1304.23,assaults_percapita
+1995,Kansas City,750.98,robberies_percapita
+2005,Kansas City,28.13,homicides_percapita
+2005,Kansas City,65.86,rapes_percapita
+2005,Kansas City,918.7,assaults_percapita
+2005,Kansas City,446.51,robberies_percapita
+2015,Kansas City,23.03,homicides_percapita
+2015,Kansas City,77.32,rapes_percapita
+2015,Kansas City,957.17,assaults_percapita
+2015,Kansas City,359.76,robberies_percapita
+1975,Las Vegas,14.85,homicides_percapita
+1975,Las Vegas,67.82,rapes_percapita
+1975,Las Vegas,418.56,assaults_percapita
+1975,Las Vegas,539.76,robberies_percapita
+1985,Las Vegas,12.48,homicides_percapita
+1985,Las Vegas,60.86,rapes_percapita
+1985,Las Vegas,335.85,assaults_percapita
+1985,Las Vegas,384.24,robberies_percapita
+1995,Las Vegas,14.87,homicides_percapita
+1995,Las Vegas,71.97,rapes_percapita
+1995,Las Vegas,645.55,assaults_percapita
+1995,Las Vegas,467.84,robberies_percapita
+2005,Las Vegas,11.31,homicides_percapita
+2005,Las Vegas,48.06,rapes_percapita
+2005,Las Vegas,411.56,assaults_percapita
+2005,Las Vegas,272.61,robberies_percapita
+2015,Las Vegas,8.13,homicides_percapita
+2015,Las Vegas,70.86,rapes_percapita
+2015,Las Vegas,521.02,assaults_percapita
+2015,Las Vegas,320.72,robberies_percapita
+1975,Memphis,18.56,homicides_percapita
+1975,Memphis,80.59,rapes_percapita
+1975,Memphis,279.2,assaults_percapita
+1975,Memphis,461.42,robberies_percapita
+1985,Memphis,18.64,homicides_percapita
+1985,Memphis,137.94,rapes_percapita
+1985,Memphis,564.75,assaults_percapita
+1985,Memphis,766.24,robberies_percapita
+1995,Memphis,29.01,homicides_percapita
+1995,Memphis,125.82,rapes_percapita
+1995,Memphis,688.25,assaults_percapita
+1995,Memphis,926.27,robberies_percapita
+2005,Memphis,20.32,homicides_percapita
+2005,Memphis,59.06,rapes_percapita
+2005,Memphis,1124.03,assaults_percapita
+2005,Memphis,657.74,robberies_percapita
+2015,Memphis,20.52,homicides_percapita
+2015,Memphis,80.55,rapes_percapita
+2015,Memphis,1163.18,assaults_percapita
+2015,Memphis,475.88,robberies_percapita
+1975,Miami,27.94,homicides_percapita
+1975,Miami,50.75,rapes_percapita
+1975,Miami,935.16,assaults_percapita
+1975,Miami,757.54,robberies_percapita
+1985,Miami,33.95,homicides_percapita
+1985,Miami,73.6,rapes_percapita
+1985,Miami,1296.48,assaults_percapita
+1985,Miami,1494.72,robberies_percapita
+1995,Miami,29.05,homicides_percapita
+1995,Miami,52.28,rapes_percapita
+1995,Miami,1833.28,assaults_percapita
+1995,Miami,1498.73,robberies_percapita
+2005,Miami,13.91,homicides_percapita
+2005,Miami,15.97,rapes_percapita
+2005,Miami,1029.89,assaults_percapita
+2005,Miami,519.97,robberies_percapita
+2015,Miami,17.12,homicides_percapita
+2015,Miami,18.27,rapes_percapita
+2015,Miami,602.1,assaults_percapita
+2015,Miami,383.82,robberies_percapita
+1975,Minneapolis,11.59,homicides_percapita
+1975,Minneapolis,75.73,rapes_percapita
+1975,Minneapolis,279.74,assaults_percapita
+1975,Minneapolis,453.4,robberies_percapita
+1985,Minneapolis,8.03,homicides_percapita
+1985,Minneapolis,116.06,rapes_percapita
+1985,Minneapolis,653.98,assaults_percapita
+1985,Minneapolis,644.28,robberies_percapita
+1995,Minneapolis,26.84,homicides_percapita
+1995,Minneapolis,161.58,rapes_percapita
+1995,Minneapolis,797.3,assaults_percapita
+1995,Minneapolis,992.43,robberies_percapita
+2005,Minneapolis,12.49,homicides_percapita
+2005,Minneapolis,106.84,rapes_percapita
+2005,Minneapolis,648.19,assaults_percapita
+2005,Minneapolis,686.73,robberies_percapita
+2015,Minneapolis,11.37,homicides_percapita
+2015,Minneapolis,98.43,rapes_percapita
+2015,Minneapolis,494.58,assaults_percapita
+2015,Minneapolis,458.55,robberies_percapita
+1975,Nashville,20.69,homicides_percapita
+1975,Nashville,24.47,rapes_percapita
+1975,Nashville,211.74,assaults_percapita
+1975,Nashville,445.51,robberies_percapita
+1985,Nashville,16.83,homicides_percapita
+1985,Nashville,72.31,rapes_percapita
+1985,Nashville,282.37,assaults_percapita
+1985,Nashville,329.95,robberies_percapita
+1995,Nashville,20.05,homicides_percapita
+1995,Nashville,93,rapes_percapita
+1995,Nashville,1166.55,assaults_percapita
+1995,Nashville,510.81,robberies_percapita
+2005,Nashville,17.05,homicides_percapita
+2005,Nashville,61.76,rapes_percapita
+2005,Nashville,1095.62,assaults_percapita
+2005,Nashville,438.03,robberies_percapita
+2015,Nashville,10.94,homicides_percapita
+2015,Nashville,77.05,rapes_percapita
+2015,Nashville,732.34,assaults_percapita
+2015,Nashville,280.69,robberies_percapita
+1975,New Orleans,27.63,homicides_percapita
+1975,New Orleans,41.44,rapes_percapita
+1975,New Orleans,350.04,assaults_percapita
+1975,New Orleans,628.74,robberies_percapita
+1985,New Orleans,27.08,homicides_percapita
+1985,New Orleans,80.34,rapes_percapita
+1985,New Orleans,619.38,assaults_percapita
+1985,New Orleans,737.85,robberies_percapita
+1995,New Orleans,74.51,homicides_percapita
+1995,New Orleans,99.96,rapes_percapita
+1995,New Orleans,960.02,assaults_percapita
+1995,New Orleans,1097.95,robberies_percapita
+2005,New Orleans,29.8,homicides_percapita
+2005,New Orleans,19.22,rapes_percapita
+2005,New Orleans,239.06,assaults_percapita
+2005,New Orleans,163.26,robberies_percapita
+2015,New Orleans,41.68,homicides_percapita
+2015,New Orleans,103.95,rapes_percapita
+2015,New Orleans,423.44,assaults_percapita
+2015,New Orleans,380.48,robberies_percapita
+1975,Newark,32.74,homicides_percapita
+1975,Newark,79.7,rapes_percapita
+1975,Newark,655.82,assaults_percapita
+1975,Newark,1146.61,robberies_percapita
+1985,Newark,36.98,homicides_percapita
+1985,Newark,187.76,rapes_percapita
+1985,Newark,1171.15,assaults_percapita
+1985,Newark,1681.65,robberies_percapita
+1995,Newark,39.2,homicides_percapita
+1995,Newark,83,rapes_percapita
+1995,Newark,1757.28,assaults_percapita
+1995,Newark,2105.81,robberies_percapita
+2005,Newark,34.51,homicides_percapita
+2005,Newark,29.53,rapes_percapita
+2005,Newark,494.91,assaults_percapita
+2005,Newark,444.74,robberies_percapita
+2015,Newark,38.34,homicides_percapita
+2015,Newark,37.26,rapes_percapita
+2015,Newark,382.64,assaults_percapita
+2015,Newark,642.4,robberies_percapita
+1975,Oakland,32.86,homicides_percapita
+1975,Oakland,93.56,rapes_percapita
+1975,Oakland,677.43,assaults_percapita
+1975,Oakland,943.01,robberies_percapita
+1985,Oakland,26.24,homicides_percapita
+1985,Oakland,146.65,rapes_percapita
+1985,Oakland,762.51,assaults_percapita
+1985,Oakland,915.78,robberies_percapita
+1995,Oakland,37.42,homicides_percapita
+1995,Oakland,88.13,rapes_percapita
+1995,Oakland,1079.26,assaults_percapita
+1995,Oakland,1052.14,robberies_percapita
+2005,Oakland,23.21,homicides_percapita
+2005,Oakland,76.38,rapes_percapita
+2005,Oakland,654.24,assaults_percapita
+2005,Oakland,666.97,robberies_percapita
+2015,Oakland,20.26,homicides_percapita
+2015,Oakland,67.94,rapes_percapita
+2015,Oakland,569.99,assaults_percapita
+2015,Oakland,784.3,robberies_percapita
+1975,Oklahoma City,15.88,homicides_percapita
+1975,Oklahoma City,64.83,rapes_percapita
+1975,Oklahoma City,355.13,assaults_percapita
+1975,Oklahoma City,258.28,robberies_percapita
+1985,Oklahoma City,13.75,homicides_percapita
+1985,Oklahoma City,109.34,rapes_percapita
+1985,Oklahoma City,495.29,assaults_percapita
+1985,Oklahoma City,357.32,robberies_percapita
+1995,Oklahoma City,48.69,homicides_percapita
+1995,Oklahoma City,101.45,rapes_percapita
+1995,Oklahoma City,798.74,assaults_percapita
+1995,Oklahoma City,343.82,robberies_percapita
+2005,Oklahoma City,10.16,homicides_percapita
+2005,Oklahoma City,67.33,rapes_percapita
+2005,Oklahoma City,551.64,assaults_percapita
+2005,Oklahoma City,224.38,robberies_percapita
+2015,Oklahoma City,11.58,homicides_percapita
+2015,Oklahoma City,76.12,rapes_percapita
+2015,Oklahoma City,488.88,assaults_percapita
+2015,Oklahoma City,189.02,robberies_percapita
+1975,Orlando,17.73,homicides_percapita
+1975,Orlando,72.6,rapes_percapita
+1975,Orlando,595.15,assaults_percapita
+1975,Orlando,256.63,robberies_percapita
+1985,Orlando,16.9,homicides_percapita
+1985,Orlando,108.43,rapes_percapita
+1985,Orlando,1303.29,assaults_percapita
+1985,Orlando,635.1,robberies_percapita
+1995,Orlando,10.58,homicides_percapita
+1995,Orlando,78.49,rapes_percapita
+1995,Orlando,1427.23,assaults_percapita
+1995,Orlando,583.36,robberies_percapita
+2005,Orlando,10.46,homicides_percapita
+2005,Orlando,78.46,rapes_percapita
+2005,Orlando,1146.04,assaults_percapita
+2005,Orlando,572.54,robberies_percapita
+2015,Orlando,11.92,homicides_percapita
+2015,Orlando,67.8,rapes_percapita
+2015,Orlando,666.45,assaults_percapita
+2015,Orlando,194.46,robberies_percapita
+1975,Philadelphia,23.1,homicides_percapita
+1975,Philadelphia,38.02,rapes_percapita
+1975,Philadelphia,253.6,assaults_percapita
+1975,Philadelphia,552.5,robberies_percapita
+1985,Philadelphia,16.65,homicides_percapita
+1985,Philadelphia,62.25,rapes_percapita
+1985,Philadelphia,337.42,assaults_percapita
+1985,Philadelphia,571.98,robberies_percapita
+1995,Philadelphia,28.24,homicides_percapita
+1995,Philadelphia,50.53,rapes_percapita
+1995,Philadelphia,460.37,assaults_percapita
+1995,Philadelphia,889.76,robberies_percapita
+2005,Philadelphia,25.6,homicides_percapita
+2005,Philadelphia,69.52,rapes_percapita
+2005,Philadelphia,688.36,assaults_percapita
+2005,Philadelphia,683.61,robberies_percapita
+2015,Philadelphia,17.86,homicides_percapita
+2015,Philadelphia,84.32,rapes_percapita
+2015,Philadelphia,495.28,assaults_percapita
+2015,Philadelphia,431.49,robberies_percapita
+1975,Salt Lake City,6.11,homicides_percapita
+1975,Salt Lake City,55,rapes_percapita
+1975,Salt Lake City,210,assaults_percapita
+1975,Salt Lake City,323.33,robberies_percapita
+1985,Salt Lake City,8.53,homicides_percapita
+1985,Salt Lake City,60.29,rapes_percapita
+1985,Salt Lake City,319.09,assaults_percapita
+1985,Salt Lake City,271.59,robberies_percapita
+1995,Salt Lake City,15.36,homicides_percapita
+1995,Salt Lake City,84.2,rapes_percapita
+1995,Salt Lake City,361.85,assaults_percapita
+1995,Salt Lake City,320.88,robberies_percapita
+2005,Salt Lake City,4.87,homicides_percapita
+2005,Salt Lake City,41.16,rapes_percapita
+2005,Salt Lake City,431.68,assaults_percapita
+2005,Salt Lake City,226.94,robberies_percapita
+2015,Salt Lake City,4.17,homicides_percapita
+2015,Salt Lake City,151.57,rapes_percapita
+2015,Salt Lake City,455.23,assaults_percapita
+2015,Salt Lake City,244.28,robberies_percapita
+1975,San Francisco,20.6,homicides_percapita
+1975,San Francisco,81.64,rapes_percapita
+1975,San Francisco,412.7,assaults_percapita
+1975,San Francisco,848.84,robberies_percapita
+1985,San Francisco,11.59,homicides_percapita
+1985,San Francisco,69.81,rapes_percapita
+1985,San Francisco,517.28,assaults_percapita
+1985,San Francisco,696.84,robberies_percapita
+1995,San Francisco,13.41,homicides_percapita
+1995,San Francisco,41.17,rapes_percapita
+1995,San Francisco,545.93,assaults_percapita
+1995,San Francisco,876.12,robberies_percapita
+2005,San Francisco,12.81,homicides_percapita
+2005,San Francisco,22.96,rapes_percapita
+2005,San Francisco,352.26,assaults_percapita
+2005,San Francisco,410.85,robberies_percapita
+2015,San Francisco,6.14,homicides_percapita
+2015,San Francisco,39.82,rapes_percapita
+2015,San Francisco,312.93,assaults_percapita
+2015,San Francisco,417.93,robberies_percapita
+1975,St. Louis,42.18,homicides_percapita
+1975,St. Louis,81.2,rapes_percapita
+1975,St. Louis,627.94,assaults_percapita
+1975,St. Louis,1105.1,robberies_percapita
+1985,St. Louis,39.2,homicides_percapita
+1985,St. Louis,89.07,rapes_percapita
+1985,St. Louis,1148.9,assaults_percapita
+1985,St. Louis,727.43,robberies_percapita
+1995,St. Louis,54.92,homicides_percapita
+1995,St. Louis,73.5,rapes_percapita
+1995,St. Louis,1841.29,assaults_percapita
+1995,St. Louis,1382.78,robberies_percapita
+2005,St. Louis,37.86,homicides_percapita
+2005,St. Louis,79.77,rapes_percapita
+2005,St. Louis,1430.9,assaults_percapita
+2005,St. Louis,856.92,robberies_percapita
+2015,St. Louis,59.29,homicides_percapita
+2015,St. Louis,82.94,rapes_percapita
+2015,St. Louis,1110.39,assaults_percapita
+2015,St. Louis,564.5,robberies_percapita
+1975,Tulsa,11.22,homicides_percapita
+1975,Tulsa,39.13,rapes_percapita
+1975,Tulsa,291.14,assaults_percapita
+1975,Tulsa,167.15,robberies_percapita
+1985,Tulsa,8.8,homicides_percapita
+1985,Tulsa,71.49,rapes_percapita
+1985,Tulsa,481.49,assaults_percapita
+1985,Tulsa,212.34,robberies_percapita
+1995,Tulsa,7.95,homicides_percapita
+1995,Tulsa,67.61,rapes_percapita
+1995,Tulsa,829.11,assaults_percapita
+1995,Tulsa,251.09,robberies_percapita
+2005,Tulsa,15.01,homicides_percapita
+2005,Tulsa,78.41,rapes_percapita
+2005,Tulsa,915.6,assaults_percapita
+2005,Tulsa,283.63,robberies_percapita
+2015,Tulsa,13.7,homicides_percapita
+2015,Tulsa,90.9,rapes_percapita
+2015,Tulsa,586.27,assaults_percapita
+2015,Tulsa,212.69,robberies_percapita
+1975,Washington,32.82,homicides_percapita
+1975,Washington,72.63,rapes_percapita
+1975,Washington,392.74,assaults_percapita
+1975,Washington,1276.12,robberies_percapita
+1985,Washington,23.48,homicides_percapita
+1985,Washington,53.83,rapes_percapita
+1985,Washington,711.98,assaults_percapita
+1985,Washington,835.46,robberies_percapita
+1995,Washington,65.16,homicides_percapita
+1995,Washington,52.71,rapes_percapita
+1995,Washington,1304.69,assaults_percapita
+1995,Washington,1238.99,robberies_percapita
+2005,Washington,35.42,homicides_percapita
+2005,Washington,29.97,rapes_percapita
+2005,Washington,700.06,assaults_percapita
+2005,Washington,636.12,robberies_percapita
+2015,Washington,24.1,homicides_percapita
+2015,Washington,73.49,rapes_percapita
+2015,Washington,598.61,assaults_percapita
+2015,Washington,506.38,robberies_percapita
