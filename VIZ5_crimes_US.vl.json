@@ -3,9 +3,33 @@
   "width": 450,
   "height": 300,
   "data": {
-    "url": "https://raw.githubusercontent.com/Avyav/FIT3179/main/data%20for%20VIZ3_v2.csv"
+    "url": "https://raw.githubusercontent.com/Avyav/FIT3179/main/Data_for_stacked_barchart.csv"
   },
-  "title": "Comparison of Crime in US Cities in 2015",
+  "title": "Comparison of Crime in US Cities in 1975 - 2015",
+
+ "params": [ {
+    "name": "Year_Selection",
+     "bind": {
+      "input": "select",
+      "options": [
+        "1975",
+        "1985",
+        "1995",
+        "2005",
+        "2015"
+      ],
+      "labels":[
+        "Show All",
+        "1975",
+        "1985",
+        "1995",
+        "2005",
+        "2015"
+],
+      "name": "Year_Selection: "
+    }
+} ],
+"transform": [ {"filter": "Year_Selection == null || datum.Year == Year_Selection"}],
   "mark": "bar",
   "encoding": {
     "tooltip": [
